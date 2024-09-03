@@ -20,6 +20,7 @@
   console.enable = true;
 
   environment.systemPackages = with pkgs; [
+    fastfetch
     libraspberrypi
     raspberrypi-eeprom
     tree
