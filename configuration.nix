@@ -10,6 +10,7 @@
   boot = {
     kernelParams = [
       "snd_bcm2835.enable_hdmi=1"
+      "fbcon=rotate:3"
     ];
     loader = {
       grub.enable = false; # Use the extlinux boot loader. (NixOS wants to enable GRUB by default)
